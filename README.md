@@ -1,25 +1,16 @@
 # EC601-Tensorflow-APP-Gen
 # Dataset
-Stanford prepared the Tiny ImageNet dataset for their CS231n course. The dataset spans 200 image classes with 500 training examples per class. The dataset also has 50 validation and 50 test examples per class.
+Stanford prepared the [Tiny ImageNet dataset](https://tiny-imagenet.herokuapp.com/). The dataset spans 200 image classes with 500 training examples per class. The dataset also has 50 validation and 50 test examples per class.
 
 The images are down-sampled to 64x64 pixels vs. 256x256 for the original ImageNet. The full ImageNet dataset also has 1000 classes.
 
 Tiny ImageNet is large enough to be a challenging and realistic problem. But not so big as to require days of training before you see results.
 
-The website of downloading the dataset is: https://tiny-imagenet.herokuapp.com/
 # Quick Tour of Repository
 ## Python Files
-### logistic_regression.py
-
-It is good practice to build a simple baseline to start. This baseline gets reaches around 3% top-1 classification accuracy (random guessing = 0.5%).
-
-### single_layer_nn.py
-
-Another simple baseline. A neural net with a single hidden layer: 1024 hidden units with ReLU activations. Reaches about 8% accuracy with minimal tuning effort.
-
 ### vgg_16.py
 
-This paper by Karen Simonyan and Andrew Zisserman introduced the VGG-16 architecture. The authors reached state-of-the-art performance using only a deep stack of 3x3xC filters and max-pooling layers. Because Tiny ImageNet has much lower resolution than the original ImageNet data, I removed the last max-pool layer and the last three convolution layers. With a little tuning, this model reaches 52% top-1 accuracy and 77% top-5 accuracy.
+[This paper](https://arxiv.org/pdf/1409.1556.pdf) by Karen Simonyan and Andrew Zisserman introduced the VGG-16 architecture. The authors reached state-of-the-art performance using only a deep stack of 3x3xC filters and max-pooling layers. Because Tiny ImageNet has much lower resolution than the original ImageNet data, I removed the last max-pool layer and the last three convolution layers. With a little tuning, this model reaches 52% top-1 accuracy and 77% top-5 accuracy.
 
 To keep it fair, I didn't use any pre-trained VGG-16 layers and only trained using the Tiny ImageNet examples.
 
