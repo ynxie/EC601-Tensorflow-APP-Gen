@@ -4,18 +4,6 @@
 # In[4]:
 
 
-"""
-Tiny ImageNet: Input Pipeline
-Written by Patrick Coady (pcoady@alum.mit.edu)
-Reads in jpegs, distorts images (flips, translations, hue and
-saturation) and builds QueueRunners to keep the GPU well-fed. Uses
-specific directory and file naming structure from data download
-link below.
-Also builds dictionary between label integer and human-readable
-class names.
-Get data here:
-https://tiny-imagenet.herokuapp.com/
-"""
 import glob
 import re
 import tensorflow as tf

@@ -3,24 +3,6 @@
 
 # In[4]:
 
-
-"""
-Tiny ImageNet Model
-Written by Patrick Coady (pcoady@alum.mit.edu)
-Architecture is based on VGG-16 model, but the final pool-conv-conv-conv-pool
-layers were discarded. The input to the network is a 56x56 RGB crop (versus
-224x224 crop for the original VGG-16 model). L2 regularization is applied to
-all layer weights. And dropout is applied to the first 2 fully-connected
-layers.
-1. conv-conv-maxpool
-2. conv-conv-maxpool
-3. conv-conv-maxpool
-4. conv-conv-conv-maxpool
-4. fc-4096 (ReLU)
-5. fc-2048 (ReLU)
-6. fc-200
-7. softmax
-"""
 import tensorflow as tf
 import numpy as np
 
