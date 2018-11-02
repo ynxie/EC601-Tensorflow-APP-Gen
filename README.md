@@ -38,6 +38,7 @@ SVM (works, but never got great performance)
 Measures % accuracy.
 
 ## Notebooks
-### train.ipynd
+### train.ipynb
 
+This is an example to show the progress during the training.
 
