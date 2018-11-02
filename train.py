@@ -3,21 +3,6 @@
 
 # In[4]:
 
-
-"""
-Tiny ImageNet: Training
-Written by Patrick Coady (pcoady@alum.mit.edu)
-Train model specified in class static var: TrainConfig.model_name.
-Key Features:
-  1. Saves key operations and variables for viewing in TensorBoard
-  2. Training control:
-    a) Learning rate decreases based on validation accuracy trend
-    b) Training terminates based on validation accuracy trend
-  4. Basic user interface to:
-    a) Name training runs / directories
-    b) Saves copy of .py files in training result directory
-    c) Resume training from checkpoint
-"""
 from vgg_16 import *
 # from logistic_regression import *
 # from single_layer_nn import *
