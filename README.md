@@ -36,3 +36,8 @@ SVM (works, but never got great performance)
 ### metrics.py
 
 Measures % accuracy.
+
+## Notebooks
+### train.ipynd
+
+
