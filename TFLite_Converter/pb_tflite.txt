@@ -1,0 +1,1 @@
+tflite_convert --graph_def_file=/home/ece-student/Desktop/pb_converted/retrained_graph.pb --output_file=/home/ece-student/Desktop/pb_converted/graph.lite --input_format=TENSORFLOW_GRAPHDEF --output_format=TFLITE --input_shape=1,224,224,3 --input_array=input --output_array=final_result --inference_type=FLOAT --input_data_type=FLOAT
