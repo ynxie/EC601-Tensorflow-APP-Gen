@@ -6,7 +6,7 @@ Some files have been modified in order to build our own project.<br>
 Before the packaging process, neccessary environment should be set up:<br/>
 * JAVA environment:
   * openjdk version "1.8.0_152-release"<br/>
-* Tensorflow Nightly<br>
+* Install Tensorflow Nightly<br>
   * version "1.13.0"
 * SDK (use sdkmanager to install following components)
   * add-ons
