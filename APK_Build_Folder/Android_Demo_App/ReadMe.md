@@ -1,5 +1,5 @@
 # Generate APP here
-This module is base on Google Tensorflow's Open Source [TensorFlow for Poets 2](https://github.com/googlecodelabs/tensorflow-for-poets-2) <br>
+This module is based on Google Tensorflow's Open Source [TensorFlow for Poets 2](https://github.com/googlecodelabs/tensorflow-for-poets-2) <br>
 License is provided in this folder.<br>
 Some files have been modified in order to build our own project.<br>
 
