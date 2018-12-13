@@ -17,8 +17,8 @@ Open Source projects that have been used:<br>
   [Modified files](https://github.com/ynxie/EC601-Tensorflow-APP-Gen/tree/master/APK_Build_Folder/Android_Demo_App)<br>
 
 * PHP Mailer (Grade=4) <br>
-  We use this open source to realize the "Auto-send E-mail" Module
+  We use this open source to realize the "Auto-send E-mail" Module<br>
   [Github Link](https://github.com/PHPMailer/PHPMailer)<br>
-  [License](https://github.com/PHPMailer/PHPMailer/blob/master/LICENSE)
-  [Modified Files](https://github.com/ynxie/EC601-Tensorflow-APP-Gen/blob/master/web/email.php)
+  [License](https://github.com/PHPMailer/PHPMailer/blob/master/LICENSE)<br>
+  [Modified Files](https://github.com/ynxie/EC601-Tensorflow-APP-Gen/blob/master/web/email.php)<br>
   
