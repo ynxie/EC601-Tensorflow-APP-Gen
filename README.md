@@ -43,5 +43,6 @@ Measures % accuracy.
 This is an example to show the progress during the training.<br>
 
 # APK_Build_Folder
-This is the step that build the APK file.
+This is the step that build the APK file.<br>
+This module is generally base on Google Tensorflow Open Source [TensorFlow for Poets 2](https://github.com/googlecodelabs/tensorflow-for-poets-2) <br>
 
