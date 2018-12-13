@@ -22,3 +22,6 @@ Open Source projects that have been used:<br>
   [License](https://github.com/PHPMailer/PHPMailer/blob/master/LICENSE)<br>
   [Modified Files](https://github.com/ynxie/EC601-Tensorflow-APP-Gen/blob/master/web/email.php)<br>
   
+* Transfer Learning Guide (Grade=4)
+  [Github Link](https://github.com/googlecodelabs/tensorflow-for-poets-2)
+  [License](https://github.com/googlecodelabs/tensorflow-for-poets-2/blob/master/LICENSE)
