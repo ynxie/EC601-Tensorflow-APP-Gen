@@ -18,5 +18,4 @@ Before the packaging process, neccessary environment should be set up:<br/>
   * tools
 
 
-run command line from apk_command_line.txt under this folder, and apk should be built into ` -> SDK Tools ->
-        Android Support Repository`
+Run command line from apk_command_line.txt under this path, and apk should be built into ` Andriod_Demo_App-> Build -> Output`
