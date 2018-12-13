@@ -40,5 +40,8 @@ Measures % accuracy.
 ## Notebooks
 ### train.ipynb
 
-This is an example to show the progress during the training.
+This is an example to show the progress during the training.<br>
+
+# APK_Build_Folder
+This is the step that build the APK file.
 
